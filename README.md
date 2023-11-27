@@ -1,7 +1,7 @@
 # push_swap
 (42 Malaga) "Push Swap" is a straightforward algorithmic project at 42. The objective is to generate a set of instructions to be printed to the standard output, guiding the sorting of numbers received in stack A from the smallest to the largest. The main goal is to accomplish this task using the minimal number of actions possible.
 
-##Actions
+## Actions
 |      | Instruction         | Action                                                |
 |------|---------------------|-------------------------------------------------------|
 | sa   | swap a              | swaps the 2 elements of the top of stack a            |
@@ -16,7 +16,7 @@
 | rrb  | reverse rotate b    | shifts all elements of stack b from top to bottom     |
 | rrr  | rra + rrb             | both rra and rrb                                    |
 
-##Examples
+## Examples
 ```bash
 ./push_swap 3 4 432 43 3234 633 23 856 9
 pb
